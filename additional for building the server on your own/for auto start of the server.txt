@@ -1,0 +1,4 @@
+create shortcut of the exe file server 
+then copy that shortcut of the exe file from the folder to the folder of startup
+the startup folder located at:
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp

@@ -1,0 +1,65 @@
+1. 404 Not Found
+
+Reason: The requested URL is not found on the server.
+
+Display to user: "Sorry, the page you are looking for does not exist. Please check the URL and try again."
+
+2. 500 Internal Server Error
+
+Reason: There is an internal server error, such as a PHP syntax error or a database connection issue.
+
+Display to user: "Sorry, something went wrong on our end. Our team is working to resolve the issue. Please try again later."
+
+3. 502 Bad Gateway
+
+Reason: The server is acting as a gateway or proxy and received an invalid response from the upstream server.
+
+Display to user: "Sorry, our servers are experiencing technical difficulties. Please try again later."
+
+4. 503 Service Unavailable
+
+Reason: The server is currently unavailable due to maintenance or high traffic.
+
+Display to user: "Sorry, our website is currently undergoing maintenance. Please try again later."
+
+5. 403 Forbidden
+
+Reason: The user does not have permission to access the requested resource.
+
+Display to user: "Sorry, you do not have permission to access this page. Please login or contact our support team."
+
+6. 401 Unauthorized
+
+Reason: The user is not authenticated or authorized to access the requested resource.
+
+Display to user: "Sorry, you are not authorized to access this page. Please login or contact our support team."
+
+7. 408 Request Timeout
+
+Reason: The server timed out while waiting for the request to complete.
+
+Display to user: "Sorry, the request took too long to process. Please try again later."
+
+8. 413 Request Entity Too Large
+
+Reason: The request body is too large to be processed by the server.
+
+Display to user: "Sorry, the file you are trying to upload is too large. Please try again with a smaller file."
+
+9. 429 Too Many Requests
+
+Reason: The user has sent too many requests in a short period of time.
+
+Display to user: "Sorry, you have exceeded the maximum number of requests. Please try again later."
+
+10. 504 Gateway Timeout
+
+Reason: The server acting as a gateway or proxy did not receive a response from the upstream server in time.
+
+Display to user: "Sorry, our servers are experiencing technical difficulties. Please try again later."
+
+By displaying a user-friendly error message, you can help the user understand what went wrong and how to resolve the issue. This can improve the overall user experience and reduce frustration.
+
+
+
+

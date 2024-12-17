@@ -1,0 +1,1 @@
+const observer=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting?e.target.classList.add("slide"):e.target.classList.remove("slide")})}),elements=document.getElementsByClassName("category-item");Array.from(elements).forEach(e=>{observer.observe(e)});

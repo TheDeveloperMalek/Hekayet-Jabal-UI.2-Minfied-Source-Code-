@@ -1,0 +1,1 @@
+window.onload=function(){let a=document.getElementsByClassName("category-item");Array.from(a).forEach(a=>{a.classList.add("bounceInOnload")})};
